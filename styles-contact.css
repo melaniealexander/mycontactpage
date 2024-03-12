@@ -60,6 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
+  /* insert the link to the background image*/
   background-image: url("images/city-bg.jpg");
   background-size: cover;
   background-repeat: no-repeat; 
@@ -72,7 +73,7 @@ html, body {
 .center {
     width: 800px;
 	padding: 2%;
-    margin: 50px auto;
+    margin: 100px auto;
  	background: rgba(255, 255, 255, 0.80); /*this uses opacity of 75% for the background color*/
 	text-align: center;
 	/*border: 4px dashed white;*/
@@ -117,9 +118,11 @@ nav{
 	border-width: 2px 0;
 	text-align: center;
 	margin-top: 2em;
+	/*fix the nav on the rupper right hand corner*/
 	position: fixed;
 	top: 0;
 	right: 0;
+	
 	background: rgba(255, 255, 255, 0.50)
 }
 nav li{
@@ -136,6 +139,7 @@ a{
 }
 a:hover{
 	color: back;
+	/*change the highlighter color to a nice gray at 50% opacity*/
 	background: lightsteelblue;
 }
     
