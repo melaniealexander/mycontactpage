@@ -71,32 +71,34 @@ html, body {
 }
 
 .center {
-    width: 800px;
+    width: 60%; /*for overall responsiveness of the textbox*/
+	min-width: 400px; /*for overall responsiveness of the textbox*/
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(255, 255, 255, 0.80); /*this uses opacity of 75% for the background color*/
+ 	background: rgba(255, 255, 255, 0.80); /*this uses opacity of 85% for the background color*/
 	text-align: center;
+	border-radius: 10px 10px 10px 10px;
 	/*border: 4px dashed white;*/
 }
 
    
 #logo {
-    margin-top: 100px;
-	margin-bottom: 16px;
+    margin-top: 60px;
+	margin-bottom: 1px;
 	/*border: 3px dashed red;*/
 	text-align: center;
 }
 
 h1 {
 	font-family: 'Didot';
-	font-size: 2em;
+	font-size: 2.5em;
     margin: 0px auto 10px auto;
     color: #1b224c;
 }
 
 h2 {
 	font-family: 'Didot';
-	font-size: 1.5em;
+	font-size: 1.8em;
     line-height: 1.4;
     color: #1b224c;
     padding: 0px 0px;
@@ -105,25 +107,28 @@ h2 {
 
 p { 
 	font-family: 'Didot';
-	font-size: 1.2em;
+	font-size: 1.4em;
     line-height: 1.6;
     color: #1b224c;
 }
 nav{
 	font-family: "Didot";
-	font-size: 1.2em;
-	width: 400px;
+	font-size: 1.5em;
+	width: 30%;
+	min-width: 20%;
 	margin: 0 auto;
 	border: #1b224c;
 	border-width: 2px 0;
 	text-align: center;
 	margin-top: 2em;
-	/*fix the nav on the rupper right hand corner*/
+	/*fix the nav on the upper right hand corner*/
 	position: fixed;
 	top: 0;
 	right: 0;
-	
-	background: rgba(255, 255, 255, 0.50)
+	background: rgba(255, 255, 255, 0.80); /*using an 80% opacity so the background image can still be slightly visible*/
+  	border-top-right-radius: 5px; /* slight rounded corner of nav */
+	border-top-left-radius: 5px; /* slight rounded corner of nav */
+	border-bottom-left-radius: 5px; /* slight rounded corner of nav */
 }
 nav li{
 	display: inline;
